@@ -88,8 +88,8 @@ export default {
       }
     })
       .then(res => {
-        int m = 1
-        if (m == 1) { //res.data.meta.error == 0
+        //int m = 1
+        if (res.data.meta.error == 0) { //res.data.meta.error == 0
           video = res.data.video;
           ratings = res.data.ratings;
           userRatings = res.data.userRatings;
