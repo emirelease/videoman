@@ -174,10 +174,10 @@ export default {
     og_url() {
       return this.video
         ? "/v/" + this.video.videoID
-        : "/404";
+        : "";
     },
     og_title() {
-      return this.video ? this.video.name : "404";
+      return this.video ? this.video.name : "";
     },
     og_type() {
       return "video.other";
