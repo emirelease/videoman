@@ -63,7 +63,7 @@
 </template>
 
 <script>
-import axios from "axios";
+axios=require('axios');
 
 export default {
   data() {
