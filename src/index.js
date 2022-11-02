@@ -9,7 +9,7 @@ const greenlockStore = require("greenlock-store-fs");
 // TLS auto-setup if selfHosted is true in the config
 if (config.selfHosted) {
   greenlock
-    .create({
+    .init({
       email: config.tls.email,
       agreeTos: config.tls.tos,
       approveDomains: config.tls.domains,
